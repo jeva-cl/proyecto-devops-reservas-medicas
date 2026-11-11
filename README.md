@@ -49,3 +49,7 @@ Consultar los registros:
 - Docker Compose
 - Nginx Alpine
 - Git y GitHub
+
+## Flujo de trabajo Git
+
+El proyecto utiliza Git para registrar los cambios y GitHub para mantener el repositorio remoto. Se trabaja mediante ramas independientes y Pull Requests para revisar e integrar modificaciones en la rama principal.
