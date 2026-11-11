@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Plataforma de demostración para reserva de horas médicas.">
+    <title>SaludPlus | Reserva de horas médicas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>SaludPlus</h1>
+            <p>Tu salud, nuestra prioridad</p>
+        </div>
+    </header>
+
+    <main class="container">
+
+        <section class="intro">
+            <h2>Reserva tu hora médica</h2>
+            <p>Selecciona una especialidad y encuentra un horario
+                adecuado para tu atención.</p>
+        </section>
+
+        <section class="booking">
+            <h2>Solicitud de reserva</h2>
+
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" placeholder="Nombre de ejemplo">
+
+                <label for="correo">Correo electrónico:</label>
+                <input type="email" id="correo" placeholder="ejemplo@correo.com">
+
+                <label for="especialidad">Especialidad médica:</label>
+                <select id="especialidad">
+                    <option value="">Selecciona una especialidad</option>
+                    <option>Medicina general</option>
+                    <option>Cardiología</option>
+                    <option>Dermatología</option>
+                    <option>Traumatología</option>
+                    <option>Pediatría</option>
+                </select>
+
+                <label for="fecha">Fecha de atención:</label>
+                <input type="date" id="fecha">
+
+                <label for="hora">Horario:</label>
+                <select id="hora">
+                    <option value="">Selecciona un horario</option>
+                    <option>09:00</option>
+                    <option>10:00</option>
+                    <option>11:00</option>
+                    <option>14:00</option>
+                    <option>15:00</option>
+                    <option>16:00</option>
+                </select>
+
+                <button type="button">Solicitar reserva</button>
+            </form>
+
+            <p class="notice">
+                Demostración académica: las reservas no se envían
+                ni se almacenan en un sistema real.
+            </p>
+        </section>
+
+        <section class="information">
+            <h2>Información de atención</h2>
+            <ul>
+                <li>Atención en distintas especialidades médicas.</li>
+                <li>Horarios disponibles de lunes a viernes.</li>
+                <li>Consulta los datos de tu reserva antes de asistir.</li>
+            </ul>
+        </section>
+
+        <section class="status">
+            <h2>Estado del servicio</h2>
+            <p><span class="indicator"></span> Plataforma disponible</p>
+            <small>Servicio web de demostración.</small>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>SaludPlus - Proyecto académico DevOps</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,133 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f6fa;
+    color: #263445;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 850px;
+    margin: auto;
+}
+
+header {
+    background-color: #1769aa;
+    color: white;
+    padding: 25px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 30px;
+}
+
+.intro {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.intro h2 {
+    color: #1769aa;
+    margin-bottom: 8px;
+}
+
+.booking,
+.information,
+.status {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.booking h2,
+.information h2,
+.status h2 {
+    color: #1769aa;
+    margin-bottom: 15px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+input,
+select {
+    padding: 11px;
+    border: 1px solid #ccd5df;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+
+button {
+    background-color: #1769aa;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #105184;
+}
+
+.notice {
+    margin-top: 15px;
+    font-size: 13px;
+    color: #667788;
+}
+
+.information ul {
+    padding-left: 20px;
+}
+
+.status p {
+    color: #23834a;
+    font-weight: bold;
+}
+
+.indicator {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #28a745;
+    border-radius: 50%;
+}
+
+.status small {
+    color: #667788;
+}
+
+footer {
+    background-color: #263445;
+    color: white;
+    text-align: center;
+    padding: 18px;
+    margin-top: 20px;
+}
+
+@media (max-width: 600px) {
+    .booking,
+    .information,
+    .status {
+        padding: 18px;
+    }
+
+    header h1 {
+        font-size: 25px;
+    }
+}
